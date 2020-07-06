@@ -111,7 +111,7 @@ body {
   background-image: url(../images/bg_service.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  padding: 1em;
+  padding-bottom: 1em;
 }
 
 .block3 .title {
@@ -182,7 +182,7 @@ fieldset {
 
 .block4 {
   background-image: url(../images/bg_contact.jpg);
-  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   height: 50%;
   margin: 0px;
@@ -190,6 +190,7 @@ fieldset {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .block4 h3 {
@@ -219,5 +220,38 @@ fieldset {
 h3:hover {
   opacity: .8;
   transition: all 1s ease-out;
+}
+
+.footer {
+  background-color: #444444;
+  margin: 0em;
+  padding: 0em;
+}
+
+.footer ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0em;
+  padding: .5em;
+}
+
+.footer ul li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: .5em;
+}
+
+.footer i {
+  font-size: 1.25em;
+  margin: 0em;
+}
+
+.footer p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin: auto 1em;
 }
 /*# sourceMappingURL=styles.css.map */

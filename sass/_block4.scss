@@ -6,7 +6,7 @@ $color3: #66CCCC;
 
 .block4 {
     background-image: url(../images/bg_contact.jpg);
-    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     height: 50%;
     margin: 0px;
@@ -14,6 +14,7 @@ $color3: #66CCCC;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     
     h3 {
         margin: 0em;
