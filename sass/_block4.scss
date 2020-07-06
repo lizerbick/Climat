@@ -1,0 +1,47 @@
+$color1: #444444; 
+$color2: #333333; 
+$color3: #66CCCC;
+
+
+
+.block4 {
+    background-image: url(../images/bg_contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+    margin: 0px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    h3 {
+        margin: 0em;
+        color: $color2;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5em;
+        font-weight: 600;
+        margin-left: .3em;
+        flex-shrink: 1;
+        text-align: center;
+    }
+    
+    a {
+        text-decoration: none;
+        margin: auto;
+        padding: .5em;
+
+        h3 {
+            color: white;
+            background-color: $color2;
+            padding: .4em;
+            margin: auto;
+        }
+
+    }
+}
+
+h3:hover {
+    opacity: .8;
+    transition: all 1s ease-out;
+}

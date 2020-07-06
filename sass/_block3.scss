@@ -1,0 +1,75 @@
+$color1: #444444; 
+$color2: #333333; 
+$color3: #66CCCC;
+
+
+
+.block3 {
+    background-image: url(../images/bg_service.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1em;
+    .title {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: auto;
+
+        h3 {
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.5em;
+            font-weight: 600;
+            margin-left: .3em;
+            flex-shrink: 1;
+            text-align: center;
+        }
+    }
+}
+i {
+    color: white;
+    font-size: 35px;
+    margin: .2em auto;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding: .2em;
+    justify-content: center;
+    align-items: center;
+
+    h4 {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.3em;
+        font-weight: 500;
+        margin: auto;
+        flex-shrink: 1;
+        text-align: center;
+        padding: auto;
+    }
+    p {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 1.2em;
+        line-height: 1.5em;
+        margin: auto 1em;
+    }
+}
+
+legend {
+    text-align: center;
+}
+
+fieldset {
+    border: 1px solid white;
+    padding: .7em;
+    margin: .5em;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
