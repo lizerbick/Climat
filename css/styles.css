@@ -206,7 +206,7 @@ fieldset {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5em;
   font-weight: 600;
-  margin-left: .3em;
+  margin: 2em auto;
   flex-shrink: 1;
   text-align: center;
 }
@@ -214,14 +214,27 @@ fieldset {
 .block4 a {
   text-decoration: none;
   margin: auto;
+  margin-top: 2em;
   padding: .5em;
-}
-
-.block4 a h3 {
   color: white;
   background-color: #333333;
-  padding: .4em;
-  margin: auto;
+  border-radius: 5px;
+  width: 50vh;
+}
+
+.block4 a:link {
+  color: white;
+  background-color: none;
+}
+
+.block4 a:active {
+  color: white;
+  background-color: none;
+}
+
+.block4 a:visited {
+  color: white;
+  background-color: none;
 }
 
 h3:hover {

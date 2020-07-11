@@ -22,7 +22,7 @@ $color3: #66CCCC;
         font-family: 'Montserrat', sans-serif;
         font-size: 1.5em;
         font-weight: 600;
-        margin-left: .3em;
+        margin: 2em auto;
         flex-shrink: 1;
         text-align: center;
     }
@@ -30,14 +30,29 @@ $color3: #66CCCC;
     a {
         text-decoration: none;
         margin: auto;
+        margin-top: 2em;
         padding: .5em;
+        color: white;
+        background-color: $color2;
+        border-radius: 5px;
+        width: 50vh;
 
-        h3 {
+        &:link {
             color: white;
-            background-color: $color2;
-            padding: .4em;
-            margin: auto;
+            background-color: none;
         }
+        &:active {
+            color: white;
+            background-color: none;
+        }
+
+        &:visited {
+            color: white;
+            background-color: none;
+        }
+
+
+
 
     }
 }
