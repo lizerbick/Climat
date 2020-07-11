@@ -180,6 +180,13 @@ fieldset {
   flex-shrink: 1;
 }
 
+@media screen and (min-width: 700px) {
+  .service {
+    display: flex;
+    width: 70vw;
+  }
+}
+
 .block4 {
   background-image: url(../images/bg_contact.jpg);
   background-position: center;
@@ -253,5 +260,12 @@ h3:hover {
   font-weight: 400;
   font-size: 1em;
   margin: auto 1em;
+}
+
+.footer :nth-child(4) {
+  margin: auto;
+  text-align: center;
+  margin: .5em auto;
+  font-size: .9em;
 }
 /*# sourceMappingURL=styles.css.map */

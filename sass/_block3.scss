@@ -42,6 +42,7 @@ i {
     justify-content: center;
     align-items: center;
 
+
     h4 {
         color: white;
         font-family: 'Montserrat', sans-serif;
@@ -73,3 +74,11 @@ fieldset {
     flex-grow: 1;
     flex-shrink: 1;
 }
+
+@media screen and (min-width: 700px) {
+
+    .service { display: flex;
+        width: 70vw;
+    
+    }
+    }

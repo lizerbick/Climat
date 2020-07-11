@@ -25,11 +25,21 @@ $color3: #66CCCC;
         font-size: 1.25em;
         margin: 0em;
     }
+
+
     p {
         color: white;
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         font-size: 1em;
         margin: auto 1em;
+    }
+
+    & :nth-child(4) {
+        margin: auto;
+        text-align: center;
+        margin: .5em auto;
+        font-size: .9em;
+
     }
 }
