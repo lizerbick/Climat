@@ -35,11 +35,32 @@ $color3: #66CCCC;
         margin: auto 1em;
     }
 
-    & :nth-child(4) {
+    & :nth-child(5) {
         margin: auto;
         text-align: center;
-        margin: .5em auto;
+        margin: auto;
+        
         font-size: .9em;
 
     }
+
+    a {
+        text-decoration: none;
+
+        &:link {
+            color: white;
+            background-color: none;
+        }
+        &:active {
+            color: white;
+            background-color: none;
+        }
+
+        &:visited {
+            color: white;
+            background-color: none;
+        }
+
+    }
+
 }
