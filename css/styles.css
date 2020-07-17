@@ -24,7 +24,12 @@ body {
   margin-left: 5%;
   margin-top: 1em;
   margin-bottom: 1em;
-  padding: 0em;
+  padding: .1em;
+}
+
+.nav_mobile ul .logo img {
+  height: 35px;
+  width: auto;
 }
 
 .nav_mobile ul img {
@@ -50,6 +55,7 @@ body {
   height: auto;
   width: auto;
   align-self: center;
+  margin-bottom: 40%;
 }
 
 .main_text1 h2 {
@@ -220,6 +226,7 @@ fieldset {
   background-color: #333333;
   border-radius: 5px;
   width: 50vh;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .block4 a:link {
@@ -276,29 +283,31 @@ h3:hover {
 }
 
 .footer :nth-child(5) {
-  margin: auto;
-  text-align: center;
-  margin: auto;
-  font-size: .9em;
+  margin: .8em auto;
+  text-align: justify;
+  padding: 0px;
+  font-size: 1em;
 }
 
 .footer a {
   text-decoration: none;
+  background-color: transparent;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .footer a:link {
   color: white;
-  background-color: none;
+  background-color: transparent;
 }
 
 .footer a:active {
   color: white;
-  background-color: none;
+  background-color: transparent;
 }
 
 .footer a:visited {
   color: white;
-  background-color: none;
+  background-color: transparent;
 }
 
 .main_text1 .txt1 {

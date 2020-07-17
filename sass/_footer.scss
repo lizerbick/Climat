@@ -36,29 +36,30 @@ $color3: #66CCCC;
     }
 
     & :nth-child(5) {
-        margin: auto;
-        text-align: center;
-        margin: auto;
-        
-        font-size: .9em;
+        margin: .8em auto;
+        text-align: justify;
+        padding: 0px;
+        font-size: 1em;
 
     }
 
     a {
         text-decoration: none;
+        background-color: transparent;
+        -webkit-tap-highlight-color: transparent;
 
         &:link {
             color: white;
-            background-color: none;
+            background-color: transparent;
         }
         &:active {
             color: white;
-            background-color: none;
+            background-color: transparent;
         }
 
         &:visited {
             color: white;
-            background-color: none;
+            background-color: transparent;
         }
 
     }

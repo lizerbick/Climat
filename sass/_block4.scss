@@ -36,6 +36,7 @@ $color3: #66CCCC;
         background-color: $color2;
         border-radius: 5px;
         width: 50vh;
+        -webkit-tap-highlight-color: transparent;
 
         &:link {
             color: white;
