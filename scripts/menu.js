@@ -10,7 +10,7 @@ function desplegar () {
     if ( show == 1 ) {
         menu.style.top = "69.19px";
         menu.style.transition = ".5s ease";
-        img.src = img_src[0];
+        img.src = img_src[1];
         img.style.transition = "1s ease"
         show = 0;
     }
@@ -18,7 +18,7 @@ function desplegar () {
     else {
         menu.style.top = "-143.13px";
         menu.style.transition = ".5s ease";
-        img.src = img_src[1];
+        img.src = img_src[0];
         img.style.transition = ".1s ease"
         show = 1;
     }
