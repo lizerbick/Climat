@@ -50,15 +50,14 @@ $color3: #66CCCC;
         li {
             list-style-type: none;
             display: flex;
-            justify-content: center;
             align-items: center;
-            padding: auto;
-            margin: auto;
 
-            i {
+            img {
                 border-right: 3px solid white;
                 margin-right: .1em;
                 padding-right: .3em;
+                position: absolute;
+                left: 5%;
             }
         }
     }
